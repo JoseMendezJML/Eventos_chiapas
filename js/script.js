@@ -26,7 +26,7 @@ if (contactForm) {
     const confirmar = confirm("¿Deseas enviar esta información?");
 
     if (confirmar) {
-      alert("Mensaje enviado correctamente. Gracias por contactar a Eventos Chiapas.");
+      alert("¡Gracias por confiar en Eventos Chiapas! Hemos recibido tu mensaje.");
       contactForm.reset();
     } else {
       alert("Envío cancelado.");
