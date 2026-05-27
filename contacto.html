@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto | Eventos Chiapas</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="logo">
+    <h1>Eventos Chiapas</h1>
+    <p>Organizamos momentos inolvidables</p>
+  </div>
+
+  <button class="menu-btn" id="menuBtn">☰</button>
+
+  <nav class="nav" id="navLinks">
+    <a href="index.html">Inicio</a>
+    <a href="eventos.html">Eventos</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+</header>
+
+<main>
+  <section class="page-title">
+    <h2>Contacto</h2>
+    <p>Envíanos un mensaje para cotizar tu próximo evento.</p>
+  </section>
+
+  <section class="contact-container">
+    <form class="contact-form" id="contactForm">
+      <label>Nombre completo</label>
+      <input type="text" id="nombre" placeholder="Escribe tu nombre" required>
+
+      <label>Correo electrónico</label>
+      <input type="email" id="correo" placeholder="ejemplo@correo.com" required>
+
+      <label>Tipo de evento</label>
+      <select id="evento" required>
+        <option value="">Selecciona una opción</option>
+        <option>Boda</option>
+        <option>XV años</option>
+        <option>Evento empresarial</option>
+        <option>Evento cultural</option>
+        <option>Otro</option>
+      </select>
+
+      <label>Mensaje</label>
+      <textarea id="mensaje" placeholder="Describe tu evento" required></textarea>
+
+      <button type="submit" class="btn">Enviar mensaje</button>
+    </form>
+
+    <div class="contact-info">
+      <h3>Información de contacto</h3>
+      <p><strong>Ubicación:</strong> Chiapas, México</p>
+      <p><strong>Teléfono:</strong> 919 000 0000</p>
+      <p><strong>Correo:</strong> contacto@eventoschiapas.com</p>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>&copy; 2026 Eventos Chiapas. Todos los derechos reservados.</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
